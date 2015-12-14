@@ -1,6 +1,6 @@
 # Made To Fit
 
-Made to Fit is a small Javascript program that changes the positions of elements smoothly employing CSS transitions based on the size of the browser window.
+Made to Fit is an extremely lightweight Javascript program that changes the positions of elements smoothly employing CSS transitions based on the size of the browser window.
 
 ## Installation
 
