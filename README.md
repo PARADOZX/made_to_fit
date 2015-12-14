@@ -4,7 +4,7 @@ Made to Fit is an extremely lightweight Javascript program that changes the posi
 
 ## Installation
 
-TODO: Describe the installation process
+Installation is easy.  Simply clone Made To Fit 'git clone https://github.com/PARADOZX/made_to_fit.git' to the appropriate directory. The last step is to include the javascript file 'made_to_fit.js' in your HTML using the <script> tag.
 
 ## Usage
 
