@@ -9,6 +9,7 @@ Installation is easy.  Simply clone Made To Fit <b>(git clone https://github.com
 ## Usage
 
 1) Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
+
 2) The elements that are to be arranged must be set use setElement method.  The argument must be a jQuery collection.  For instance assign the elements a class of 'fit'.  Then pass the jQuery collection of class fit as argument.  `mtf.setElement($(".fit"));` 
 
 
