@@ -1,6 +1,6 @@
-function Made_To_Fit() {}
+function MadeToFit() {}
 
-Made_To_Fit.prototype = (function(){
+MadeToFit.prototype = (function(){
     
     var autoHeight = true,
         elementsHide = true,
