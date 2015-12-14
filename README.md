@@ -15,12 +15,13 @@ Installation is easy.  Simply clone Made To Fit <b>(git clone https://github.com
 3) All the elements must be placed within a single "container".  For instance, if we have 3 divs of class 'fit', they must all be direct children of the same "container".  
 
 ```
-<div id="container">
+<div id="fit-container">
   <div class="fit"></div>
   <div class="fit"></div>
   <div class="fit"></div>
 </div> //end container
 ```
+The container must be registered using the setContainer method.  The method takes a jQuery selector as the argument. `mtf.setContainer($("#container"));`
 
 
 ## Contributing
