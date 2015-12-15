@@ -39,9 +39,6 @@ The only dependency is jQuery.
 
 
 
-
-
-
 ## Contributing
 
 1. Fork it!
