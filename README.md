@@ -18,11 +18,7 @@ HTML
   - Percentages must not be used for the width and height.  
   - Elements must all have a class attribute and be of the same class.
 
-2. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
-
-3. The elements that are to be arranged must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, assign the elements a class of 'fit'.  Then pass the jQuery collection of class 'fit' as the argument.  `mtf.setElement($(".fit"));` 
-
-4. All the elements must be placed within a single "container".  For instance, if we have 3 divs of class 'fit', they must all be direct children of the same "container".  
+2. All the elements must be placed within a single container.  For instance, if we have 3 divs of class 'fit', they must all be direct children of the same "container".  
 
 ```
 <div id="fit-container">
@@ -31,7 +27,14 @@ HTML
   <div class="fit"></div>
 </div> //end container
 ```
-The container must be registered using the setContainer method.  The method takes a jQuery selector as the argument. `mtf.setContainer($("#container"));`
+The container must be registered using the setContainer method.  The method takes a jQuery selector as the argument. `mtf.setContainer($("#container"));` 
+
+3. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
+
+4. The elements that are to be arranged must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, assign the elements a class of 'fit'.  Then pass the jQuery collection of class 'fit' as the argument.  `mtf.setElement($(".fit"));` 
+
+
+
 
 
 ## Contributing
