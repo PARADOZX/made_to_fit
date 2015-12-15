@@ -36,7 +36,7 @@ The only dependency is jQuery.
 
 6. Set the dimensions of the elements by using the setElementDimensions method.  If the element widths are 200px and heights are 100px: `mtf.setElementDimensions(200, 100)`  *auto-detection will be featured in the next version*
 
-
+7. Finally, call init method.  `mtf.init()`
 
 
 ## Contributing
