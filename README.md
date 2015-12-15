@@ -4,7 +4,7 @@ Made to Fit is an extremely lightweight Javascript program that arranges and shi
 
 ## Installation
 
-Installation is easy.  Simply clone Made To Fit <strong>(git clone https://github.com/PARADOZX/made_to_fit.git)</strong> to the appropriate directory. The last step is to include the javascript file <strong>made_to_fit.js</strong> in your HTML using the 'script' tag.
+Installation is easy.  Simply clone Made To Fit `git clone https://github.com/PARADOZX/made_to_fit.git` to the appropriate directory. The last step is to include the javascript file <u>made_to_fit.js</u> in your HTML using the 'script' tag.
 
 The only dependency is jQuery.
 
