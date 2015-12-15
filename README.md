@@ -26,12 +26,16 @@ The only dependency is jQuery.
   <div class="fit"></div>
 </div> //end container
 ```
-<strong>Javascript</strong>
+<strong>JAVASCRIPT</strong>
 
 3. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
 
 4. The HTML elements must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, if the elements were assigned a class of 'fit' it would look like this:  `mtf.setElement($(".fit"));` 
+
 5. The container must be registered using the setContainer method.  The method takes a jQuery selector as the argument. `mtf.setContainer($("#fit-container"));`  
+
+6. Set the dimensions of the elements by using the setElementDimensions method.  If the element widths are 200px and heights are 100px: `mtf.setElementDimensions(200, 100)`
+
 
 
 
