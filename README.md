@@ -4,7 +4,7 @@ Made to Fit is an extremely lightweight Javascript program that arranges and shi
 
 ## Installation
 
-Installation is easy.  Simply clone Made To Fit `git clone https://github.com/PARADOZX/made_to_fit.git` to the appropriate directory. The last step is to include the javascript file <u>made_to_fit.js</u> in your HTML using the 'script' tag.
+Installation is easy.  Simply clone Made To Fit `git clone https://github.com/PARADOZX/made_to_fit.git` to the appropriate directory. The last step is to include the javascript file *made_to_fit.js* in your HTML using the 'script' tag.
 
 The only dependency is jQuery.
 
@@ -34,7 +34,7 @@ The only dependency is jQuery.
 
 5. The container must be registered using the setContainer method.  The method takes a jQuery selector as the argument. `mtf.setContainer($("#fit-container"));`  
 
-6. Set the dimensions of the elements by using the setElementDimensions method.  If the element widths are 200px and heights are 100px: `mtf.setElementDimensions(200, 100)`
+6. Set the dimensions of the elements by using the setElementDimensions method.  If the element widths are 200px and heights are 100px: `mtf.setElementDimensions(200, 100)`  *auto-detection will be featured in the next version*
 
 
 
