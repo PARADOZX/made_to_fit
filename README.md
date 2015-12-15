@@ -26,7 +26,7 @@ The only dependency is jQuery.
   <div class="fit"></div>
 </div> //end container
 ```
-
+<strong>Javascript</strong>
 3. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
 
 4. The elements that are to be arranged must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, assign the elements a class of 'fit'.  Then pass the jQuery collection of class 'fit' as the argument.  `mtf.setElement($(".fit"));` 
