@@ -10,11 +10,18 @@ The only dependency is jQuery.
 
 ## Usage
 
-1) Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
+HTML
 
-2) The elements that are to be arranged must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, assign the elements a class of 'fit'.  Then pass the jQuery collection of class 'fit' as the argument.  `mtf.setElement($(".fit"));` 
+1. Create the HTML elements.  HTML element rules are as follows:
+..1. You can create any number of elements.
+..2. Elements must all share the same dimensions.
+..3. Elements must all be of the same 'class' attribute.
 
-3) All the elements must be placed within a single "container".  For instance, if we have 3 divs of class 'fit', they must all be direct children of the same "container".  
+2. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
+
+3. The elements that are to be arranged must be registered using setElement method.  The setElement method takes a jQuery collection as the argument.  For instance, assign the elements a class of 'fit'.  Then pass the jQuery collection of class 'fit' as the argument.  `mtf.setElement($(".fit"));` 
+
+4. All the elements must be placed within a single "container".  For instance, if we have 3 divs of class 'fit', they must all be direct children of the same "container".  
 
 ```
 <div id="fit-container">
