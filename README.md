@@ -14,8 +14,9 @@ HTML
 
 1. Create the HTML elements.  HTML element rules are as follows:
   - You can create any number of elements.
-  - Elements must all share the same dimensions.
-  - Elements must all be of the same 'class' attribute.
+  - Elements must all share the same dimensions (width and height).
+  - Percentages must not be used for the width and height.  
+  - Elements must all have a class attribute and be of the same class.
 
 2. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
 
