@@ -13,9 +13,9 @@ The only dependency is jQuery.
 HTML
 
 1. Create the HTML elements.  HTML element rules are as follows:
-..1. You can create any number of elements.
-..2. Elements must all share the same dimensions.
-..3. Elements must all be of the same 'class' attribute.
+  - You can create any number of elements.
+  - Elements must all share the same dimensions.
+  - Elements must all be of the same 'class' attribute.
 
 2. Create a MadeToFit object using the MadeToFit constructor.  `var mtf = new MadeToFit();`
 
