@@ -40,11 +40,9 @@ The only dependency is jQuery.
 
 <strong>OPTIONS</strong>
 
--helo
--helo
+Options are passed into MadeToFit constructor as JSON object.
 
-  -helo
-  -helo
+
 
 
 ## Contributing
