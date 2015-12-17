@@ -38,6 +38,14 @@ The only dependency is jQuery.
 
 7. Finally, call init method.  `mtf.init()`
 
+<strong>OPTIONS</strong>
+
+-helo
+-helo
+
+  -helo
+  -helo
+
 
 ## Contributing
 
