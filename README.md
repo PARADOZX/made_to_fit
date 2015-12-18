@@ -45,10 +45,11 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
 * __autoHeight__ - _Adjusts the container in which all the elements are wrapped.  Since elements are of absolute positioning the container's height will not be automatically adjusted to accommodate space for your elements.  By setting this option to 'true' the container's height will be adjusted automatically (up or down) to create a nice space to fit your elements._  
 
-  <u>Default</u>: `{autoHeight:true}`  
+  Default: `{autoHeight:true}`  
+  
   Option values (bool):  
-  true - autoHeight enabled  
-  false - autoHeight disabled
+    true - autoHeight enabled  
+    false - autoHeight disabled
 
 
 
