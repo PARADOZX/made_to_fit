@@ -46,7 +46,7 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
 * __autoHeight__ - _Adjusts the container in which all the elements are wrapped.  Since elements are of absolute positioning the container's height will not be automatically adjusted to accommodate space for your elements.  By setting this option to 'true' the container's height will be adjusted automatically (up or down) to create a nice space to fit your elements._  
 
-  Default: `{autoHeight:true}`  
+  Default: `{autoHeight : true}`  
   
   Option values (bool):  
     true - autoHeight enabled  
@@ -54,13 +54,18 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
 * __centerLeftovers__ - _MadeToFit displays your elements in rows with an equal amount of elements in each row as long as there are enough elements to completely fill the rows.  If there are not enough elements to completely fill the last row centerLeftovers auto sets the margins to create a look of symmetry._  
 
-  Default: `{centerLeftovers:true}`  
+  Default: `{centerLeftovers : true}`  
   
   Option values (bool):  
     true - centerLeftovers enabled  
     false - centerLeftovers disabled
 
+* __tBuffer__ - _tBuffer (top buffer) allows you to set the buffer (or margin) between the element rows in pixels._  
 
+  Default: `{tBuffer : 60}`  
+  
+  Option values (integer):  
+    Any integer may be used.  
 
 
 
