@@ -69,11 +69,11 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
 * __elementsHide__ - _Sets the positions of the elements just outside of the browser window alternating from left to right effectively "hiding" the elements from view.  A visual effect is achieved when elements are "unhidden" as the elements all move into their respective positions from out of view._  
 
-  Default: `{centerLeftovers : true}`  
+  Default: `{elementsHide : false}`  
   
   Option values (bool):  
-    true - centerLeftovers enabled  
-    false - centerLeftovers disabled
+    true - elementsHide enabled  
+    false - elementsHide disabled
 
 
 
