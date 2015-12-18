@@ -72,9 +72,16 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
   Default: `{elementsHide : false}`  
   
   Option values (bool):  
-    true - elementsHide enabled  
+    true - elementsHide enabled; when set to true and triggerPoint is not set elements will "unhide" when page loads.
     false - elementsHide disabled
 
+* __triggerPoint__ - _Only define when `{elementsHide:true}`.  When a trigger point is defined  ._  
+
+  Default: `{elementsHide : false}`  
+  
+  Option values (bool):  
+    true - elementsHide enabled  
+    false - elementsHide disabled
 
 
 ## Contributing
