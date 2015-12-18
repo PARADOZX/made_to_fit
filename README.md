@@ -38,6 +38,7 @@ The only dependency is jQuery.
 
 7. Finally, call init method.  `mtf.init()`
 
+
 <strong>OPTIONS</strong>
 
 Options are passed into MadeToFit constructor as JSON object.  `var mtf = new MadeToFit({triggerPoint:100, elementsHide:true});`
@@ -50,6 +51,14 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
   Option values (bool):  
     true - autoHeight enabled  
     false - autoHeight disabled
+
+* __centerLeftovers__ - _MadeToFit displays your elements in rows with an equal amount of elements in each row as long as there are enough elements to completely fill the rows.  If there are not enough elements to completely fill the last row centerLeftovers auto sets the margins to create a look of symmetry._  
+
+  Default: `{centerLeftovers:true}`  
+  
+  Option values (bool):  
+    true - centerLeftovers enabled  
+    false - centerLeftovers disabled
 
 
 
