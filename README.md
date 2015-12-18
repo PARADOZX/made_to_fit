@@ -42,10 +42,10 @@ The only dependency is jQuery.
 
 Options are passed into MadeToFit constructor as JSON object.  `var mtf = new MadeToFit({triggerPoint:100, elementsHide:true});`
 
-```
+
 autoHeight - *Adjusts the container in which all the elements are wrapped.  *
-(default: true)
-```
+  (default: true)
+
 
 
 ## Contributing
