@@ -40,8 +40,10 @@ The only dependency is jQuery.
 
 <strong>OPTIONS</strong>
 
-Options are passed into MadeToFit constructor as JSON object.
+Options are passed into MadeToFit constructor as JSON object.  `var mtf = new MadeToFit({triggerPoint:100, elementsHide:true});`
 
+autoHeight 
+(default: true)
 
 
 
