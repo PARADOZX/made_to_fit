@@ -43,7 +43,7 @@ The only dependency is jQuery.
 Options are passed into MadeToFit constructor as JSON object.  `var mtf = new MadeToFit({triggerPoint:100, elementsHide:true});`
 
 
-* autoHeight - _Adjusts the container in which all the elements are wrapped.  Since elements are of absolute positioning the container's height will not be automatically adjusted to accommodate space for all the elements.  By setting this option to true the container's height will be adjusted up and down automatically in accordance to the contained elements._      
+* autoHeight - _Adjusts the container in which all the elements are wrapped.  Since elements are of absolute positioning the container's height will not be automatically adjusted to accommodate space for your elements.  By setting this option to 'true' the container's height will be adjusted automatically (up or down) to create a nice space to fit your elements._      
 (default: true)
 
 
