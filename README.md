@@ -75,7 +75,7 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
     true - elementsHide enabled; when set to true and triggerPoint is not set elements will "unhide" when page loads.
     false - elementsHide disabled
 
-* __triggerPoint__ - _Only define when `{elementsHide:true}`.  When a trigger point is defined  ._  
+* __triggerPoint__ - _Only set this option when `{elementsHide:true}`.  A trigger point is point on the top/down scroll of the page the user must scroll past that causes hidden elements to reveal themselves._  
 
   Default: `{elementsHide : false}`  
   
