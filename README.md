@@ -83,7 +83,7 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
     true - elementsHide enabled  
     false - elementsHide disabled
     
-* __responsive__ - _If you resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array._  
+* __responsive__ - _If you implemented responsive design and resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array._  
 
   Default: `{responsive : []}`  
   
