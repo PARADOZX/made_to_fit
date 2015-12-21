@@ -77,11 +77,12 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
 * __triggerPoint__ - _Only set this option when `{elementsHide:true}`.  A trigger point is a point on the top/down scroll of the page.  When the user scrolls past this trigger point the hidden elements reveal themselves._  
 
-  Default: `{triggerPoint : false}`  
+  Default: `{triggerPoint : null}`  
   
-  Option values (bool):  
-    true - elementsHide enabled  
-    false - elementsHide disabled
+  Option values (number):  
+    
+    Example : 
+    `{triggerPoint : 900}` The user set elementsHide option to true.  When the user scrolls and hits 900px on the Y-scroll the trigger point activates which unhides the hidden elements.
     
 * __responsive__ - _If you implemented responsive design and resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array.  You may add as many breakpoints to the array as you desire._  
 
