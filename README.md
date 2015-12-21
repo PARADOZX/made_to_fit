@@ -85,12 +85,17 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
     
 * __responsive__ - _If you implemented responsive design and resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array._  
 
-  `{responsive : [*screen_width*, element_height, element_width]}`  
+  `{responsive : [screen_width, element_width, element_height]}`  single breakpoint
+  `{responsive : [[screen_widthA, element_widthA, element_heightA],[screen_widthB, element_widthB, element_heightB],[screen_widthC, element_widthC, element_heightC]]}`
   Default: `{responsive : []}`  
   
-  Option values (bool):  
-    true - elementsHide enabled  
-    false - elementsHide disabled
+  Example: 
+  `{responsive : [450, 200, 100]}`  In this scenario the user implemented a responsive design such as using a CSS media query that changes the element's width to 200px and height to 100px when max screen is 450px.  The user must now register the breakpoint at 450px and the element width and height.  
+  
+  Option values:  
+    screen_width (number) - 
+    element_width (number) -
+    element_height (number) - 
 
 
 ## Contributing
