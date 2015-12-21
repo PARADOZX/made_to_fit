@@ -83,32 +83,22 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
     true - elementsHide enabled  
     false - elementsHide disabled
     
-* __responsive__ - _If you implemented responsive design and resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array._  
+* __responsive__ - _If you implemented responsive design and resized your elements based on the width of the screen you will need to register the breakpoints and the sizes of the elements in the 'responsive' option array.  You may add as many breakpoints to the array as you desire._  
 
   `{responsive : [screen_width, element_width, element_height]}`  single breakpoint  
+  
   `{responsive : [[screen_widthA, element_widthA, element_heightA],[screen_widthB, element_widthB, element_heightB]]}`  multiple breakpoints  
+  
   Default: `{responsive : []}`  
   
-  Example: 
-  `{responsive : [450, 200, 100]}`  In this scenario the user implemented a responsive design such as using a CSS media query that changes the element's width to 200px and height to 100px when max screen is 450px.  The user must now register the breakpoint at 450px and the element width and height.  
-  
   Option values:  
-    screen_width (number) - 
-    element_width (number) -
-    element_height (number) - 
-
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
+    screen_width (number) - screen width where breakpoint is set
+    element_width (number) - element's width in px for that particular breakpoint
+    element_height (number) - element's height in px for that particular breakpoint
+  
+  Example: 
+  `{responsive : [450, 200, 100]}`  In this scenario the user implemented a responsive design such as using a CSS media query that changes the element's width to 200px and height to 100px when max screen is 450px.  The user must now register the breakpoint at 450px with the element's width and height. 
+  
 
 ## Credits
 
