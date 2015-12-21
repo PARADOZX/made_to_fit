@@ -87,14 +87,14 @@ Options are passed into MadeToFit constructor as JSON object.  `var mtf = new Ma
 
   `{responsive : [screen_width, element_width, element_height]}`  single breakpoint  
   
-  `{responsive : [[screen_widthA, element_widthA, element_heightA],[screen_widthB, element_widthB, element_heightB]]}`  multiple breakpoints  
+  `{responsive : [ [screen_widthA, element_widthA, element_heightA] , [screen_widthB, element_widthB, element_heightB] ]}`  multiple breakpoints  
   
   Default: `{responsive : []}`  
   
   Option values:  
-    screen_width (number) - screen width where breakpoint is set
-    element_width (number) - element's width in px for that particular breakpoint
-    element_height (number) - element's height in px for that particular breakpoint
+    screen_width (number) - screen width where breakpoint is set  
+    element_width (number) - element's width in px for that particular breakpoint  
+    element_height (number) - element's height in px for that particular breakpoint  
   
   Example: 
   `{responsive : [450, 200, 100]}`  In this scenario the user implemented a responsive design such as using a CSS media query that changes the element's width to 200px and height to 100px when max screen is 450px.  The user must now register the breakpoint at 450px with the element's width and height. 
